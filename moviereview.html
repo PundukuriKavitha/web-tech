@@ -1,0 +1,128 @@
+<html>
+    <head>
+        <title>movie review</title>
+        <h1 style="text-align: center;font-style: italic;font-size: 250%;">Movie Review</h1>
+        <style>
+            .body1{
+                border:1px solid rgb(32, 33, 34);
+                border-radius: 5px;
+                box-shadow: rgb(15, 15, 15);
+                background-color:rgb(78, 33, 59);
+        
+                height: 170%;
+                width: 60%;
+                border-color: black;
+                margin-left: 20%;
+                border-width: 100%;
+                box-sizing: border-box;
+                border-color: black;
+                box-shadow: rgb(71, 67, 67);
+                
+            }
+            .first{
+                border:1px solid rgb(62, 84, 110);
+                border-radius: 20px;
+                background-color:rgb(240, 239, 239);
+                height:25%;
+                width: 90%;
+                margin-left:5%;
+            }
+            input{
+                font-size: 150%;
+                font-style: italic;
+                color: black;
+                
+                padding:3px;
+                border-radius:5px;
+                border-color: rgb(129, 36, 80);
+                            
+            }
+            label{
+                font-size: 150%;
+                font-style: italic;
+                margin-left: 5%;
+            }
+            .rate{
+                border:1px solid rgb(219, 224, 230);
+                border-radius: 20px;
+                background-color:rgb(240, 239, 239);
+                height:15%;
+                width: 90%;
+                margin-left:5%;
+            }
+            .fav{
+                border:1px solid rgb(219, 224, 230);
+                border-radius: 20px;
+                background-color:rgb(240, 239, 239);
+                height:37%;
+                width: 90%;
+                margin-left:5%;
+                
+            }
+            textarea {
+                border: 10px;
+                border-color: black;
+                margin-left:10%;
+                background-color: rgb(219, 213, 213);
+                border-radius: 4px;
+
+            }
+            h2{
+                margin-left: 5%;
+            }
+            button{
+                font-size: 150%;
+                font-style: italic;
+                color: black;
+                height: 5%;
+                width: 30%;
+                padding:3px;
+                border-radius:5px;
+                border-color: rgb(129, 36, 80);
+                background-color: rgb(202, 202, 196);
+                margin-left: 10%;
+
+
+            }
+            
+           
+            
+
+        </style>
+    </head>
+    <body>
+        <div class="body1">
+            <form><br><br>
+                <div class="first"><br><br>
+                <label for="title"><b>Title :</b></label>  
+                <input type="text" id="title">&nbsp;&nbsp;&nbsp;&nbsp;<br><br>
+                <label for="dir"><b>Director  :</b></label>
+                <input type="text" id="dir"><br><br><br>
+                <label for="gen"><b>Genre  :</b></label>
+                <input type="text" id="gen"><br><br><br>
+                <label for="rel"><b>Release Date:   </b></label>
+                <input type="date" id="rel">
+            
+            </div><br><br>
+            <div class="rate"><br><br>
+                <label for="rate"><b>Rate the movie   :</b></label> 
+                <input type="number" max="5" id="rate"><br><br><br>
+                <label for="recom"><b>Justification  :</b></label>
+                <input type="text" id="recom">
+
+            </div><br><br><br>
+            <div class="fav"><br><br>
+                <label for="rate"><b>What is your favourite Scene in Movie  :</b></label><br><br>
+                <textarea rows="15" cols="80"></textarea><br><br>
+                <h2><b>Recommended :</b></h2>
+                &nbsp;<input type="radio" name="rec" id="rec1">&nbsp;&nbsp;<b>Yes:</b>
+                <input type="radio" name="rec" id="rec2"><b>No :</b>
+            </div><br><br>
+            <button>Submit</button>
+            <button>Reset</button>
+               
+
+            </form>
+        </div>
+    </body>
+</html>
